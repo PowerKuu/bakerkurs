@@ -12,6 +12,6 @@
 h1 {
     font-size: 3.123rem;
     color: var(--secondary);
-    font-weight: 600;
+    font-weight: 400;
 }
 </style>
