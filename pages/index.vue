@@ -23,7 +23,7 @@ const config = useConfig()
                 </SystemP>
 
                 <SystemFlex gap="2rem" wrap="wrap">
-
+                    <Item></Item>
                 </SystemFlex>
             </SystemFlex>
         </SystemFlex>
