@@ -27,7 +27,7 @@ const selectedOption = computed({
 <template>
     <SystemStyleSetup></SystemStyleSetup>
 
-    <SystemFlex>
+    <SystemFlex direction="column">
         <SystemTopNav>
             <template #left>
                 <SystemFlex gap="1.5rem">
@@ -151,9 +151,7 @@ const selectedOption = computed({
     padding: 3rem var(--page-padding);
     border-top: var(--border-width) solid var(--neutral);
 
-    position: fixed;
     bottom: 0;
-
     width: 100%;
 
     background: var(--primary);
